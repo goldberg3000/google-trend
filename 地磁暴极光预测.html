@@ -1,0 +1,188 @@
+
+            <!DOCTYPE html>
+            <html lang="zh-CN">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>地磁暴极光预测</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+                <style>
+                    body {
+                        background-image: url("https://ipgeo-bingpic.hf.space");
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-attachment: fixed;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: flex-start;
+                        min-height: 100vh;
+                        margin: 0;
+                        padding: 0;
+                        color: #fff;
+                        overflow-x: hidden;
+                    }
+                    .header {
+                        text-align: center;
+                        width: 100%;
+                        padding: 20px 0;
+                        background-color: rgba(0, 0, 0, 0.7);
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                    }
+                    h1 {
+                        font-size: 2.5em;
+                        margin: 0;
+                        color: #fff;
+                        animation: bounceInDown;
+                        animation-duration: 1s;
+                    }
+                    .subtitle {
+                        font-size: 1em;
+                        color: #ccc;
+                        margin-top: 5px;
+                    }
+                    .container {
+                        width: 80%;
+                        max-width: 900px;
+                        margin: 20px auto;
+                        background-color: rgba(0, 0, 0, 0.7);
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                        padding: 20px;
+                        animation: fadeIn;
+                        animation-duration: 1s;
+                    }
+                    .article-title {
+                        font-size: 1.5em;
+                        margin-bottom: 10px;
+                        color: #fff;
+                    }
+                    .article-content {
+                        font-size: 1em;
+                        line-height: 1.6;
+                        color: #ccc;
+                        margin-bottom: 20px;
+                    }
+                    .article-link {
+                        color: #4CAF50;
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
+                    .article-link:hover {
+                        text-decoration: underline;
+                    }
+                    .footer {
+                        text-align: center;
+                        font-size: 0.9em;
+                        color: #ccc;
+                        padding: 10px;
+                        background: rgba(0, 0, 0, 0.6);
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                    .footer a {
+                        color: #ccc;
+                        text-decoration: none;
+                    }
+                    .footer a:hover {
+                        color: #e0e0e0;
+                        text-decoration: underline;
+                    }
+                    @media (max-width: 768px) {
+                        .container {
+                            padding: 15px;
+                        }
+                        h1 {
+                            font-size: 2em;
+                        }
+                        .header, .footer {
+                            padding: 10px 0;
+                        }
+                        .article-title {
+                            font-size: 1.3em;
+                        }
+                        .article-content {
+                            font-size: 0.9em;
+                        }
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="header">
+                    <h1>地磁暴极光预测</h1>
+                    <p class="subtitle">更新时间: 2024-12-31 20:20</p>
+                </div>
+                <div class="container">
+            
+                <h2 class="article-title">Aurora - 30 Minute Forecast | NOAA / NWS Space Weather Prediction Center</h2>
+                <p class="article-content">## 空间天气预报中心  美国国家海洋和大气管理局
+
+**北半球  南半球**
+
+这是一份关于极光位置和强度的短期预报。这份产品基于 OVATION 模型，提供 30 到 90 分钟的极光位置和强度预报。预报提前时间是指太阳风从 L1 观测点传播到地球所需的时间。两张地图分别显示了地球的北极和南极。极光的亮度和位置通常显示为以地球磁极为中心的绿色椭圆形。当预报极光强度增强时，绿色椭圆形会变为红色。地球的阳光照射面由海洋的浅蓝色和大陆的浅色表示。极光通常可以在日落后或日出前在地球上的某个地方被观测到。在白天无法观测到极光。极光不必直接位于头顶，当极光明亮且条件合适时，可以在距离极光 1000 公里处被观测到。
+
+极光是当前地磁风暴状况的指标，为多种技术提供态势感知。极光直接影响 HF 无线电通信和 GPS/GNSS 卫星导航。它与影响电力传输的地面感应电流密切相关。对许多人来说，极光是一种美丽的夜间现象，值得前往北极地区观赏。对于大多数人来说，这是唯一亲身体验空间天气的机会。
+
+以下链接提供了关于极光现象的讨论以及在世界各地不同地点观赏极光的最佳时机。
+
+OVATION（Oval Variation, Assessment, Tracking, Intensity, and Online Nowcasting）模型是约翰·霍普金斯大学应用物理实验室帕特里克·纽厄尔及其同事开发的一种经验性极光强度模型。该模型使用太阳风速度和行星际磁场作为输入，这些数据在距离地球 160 万公里（100 万英里）的 L1 轨道位置处测量，并计算三种类型的电子沉降和质子沉降，这与极光密切相关。假设与极光强度存在线性关系，可以得出极光观测概率的估计值。这种关系通过与 NASA 极地卫星上的紫外线成像仪（UVI）数据进行比较得到验证。偶尔，输入的太阳风数据要么被污染，要么不可用。在这些情况下，使用基于当前 Kp 地磁指数的太阳风强迫力的替代估计值来驱动 OVATION 模型。当这种情况发生时，没有预报提前时间。
+
+有关 OVATION 模型和极光产品的更多信息，请参阅：
+
+* 2009 年，纽厄尔等人开发了 OVATION 模型。
+* 2011 年，美国国家海洋和大气管理局（NOAA）（国家环境信息中心和空间天气预报中心）开发了 OVATION 模型的实时版本，用于预测极光的位置和强度。
+* 马乔尔和雷德蒙（国家环境信息中心）开发了实时 OVATION 模型。
+* 维雷克（空间天气预报中心）实施了该模型并开发了图形产品以实时运行，从而创建极光预报。
+* 2013 年，纽厄尔升级了 OVATION Prime 模型，使其能够更准确地捕捉大型地磁风暴。原始模型仅基于 DMSP 数据，仅对 Kp 值为 7 可靠。通过添加来自 NASA TIMED GUVI 仪器的數據，纽厄尔等人能够将模型扩展到包括 Kp 值为 8 和 9 的更大的风暴值。
+* 2016 年，美国国家海洋和大气管理局空间天气预报中心与英国气象局共享了运营 OVATION 代码（用 IDL 编写）。英国气象局将 OVATION 模型从 IDL 转换为 Python。
+* 2020 年，美国国家海洋和大气管理局空间天气预报中心将 OVATION Prime 模型的新版本实施到运营中。这个版本被称为 OVATION 2020。
+
+极光预报产品基于由约翰·霍普金斯大学应用物理实验室的 P. 纽厄尔开发的 OVATION Prime 模型。
+
+构成南北半球循环的最新 24 小时图像帧（带有时间标记的文件名）可供使用：
+
+* 北半球：
+* 南半球：
+
+最新的北半球和南半球图像（带有静态文件名）可供使用：
+
+* 北半球：
+* 南半球：
+
+整个地球的网格化极光数据以压缩的 JSON 格式提供：
+
+* 最新的 JSON 文件可供使用。
+
+半球能量指数（HPI）是在每个极点估计的总极光能量输入，以 ASCII 格式提供：
+
+* 最新 HPI
+
+**美国国家海洋和大气管理局**
+
+**国家气</p>
+                <p><a href="https://www.swpc.noaa.gov/products/aurora-30-minute-forecast" target="_blank" class="article-link">原文链接</a></p>
+                <hr>
+                
+                <h2 class="article-title">Aurora Forecast | Geophysical Institute</h2>
+                <p class="article-content">地球物理研究所 [{"predicted_time":"2024-12-30","kp":"3"},{"predicted_time":"2024-12-31","kp":"7"},{"predicted_time":"2025-01-01","kp":"5"},{"predicted_time":"2025-01-02","kp":"3"},{"predicted_time":"2025-01-03","kp":"2"},{"predicted_time":"2025-01-04","kp":"2"},{"predicted_time":"2025-01-05","kp":"3"},{"predicted_time":"2025-01-06","kp":"3"},{"predicted_time":"2025-01-07","kp":"2"},{"predicted_time":"2025-01-08","kp":"2"},{"predicted_time":"2025-01-09","kp":"2"},{"predicted_time":"2025-01-10","kp":"4"},{"predicted_time":"2025-01-11","kp":"3"},{"predicted_time":"2025-01-12","kp":"3"},{"predicted_time":"2025-01-13","kp":"2"},{"predicted_time":"2025-01-14","kp":"2"},{"predicted_time":"2025-01-15","kp":"2"},{"predicted_time":"2025-01-16","kp":"4"},{"predicted_time":"2025-01-17","kp":"3"},{"predicted_time":"2025-01-18","kp":"3"},{"predicted_time":"2025-01-19","kp":"3"},{"predicted_time":"2025-01-20","kp":"3"},{"predicted_time":"2025-01-21","kp":"2"},{"predicted_time":"2025-01-22","kp":"2"},{"predicted_time":"2025-01-23","kp":"2"},{"predicted_time":"2025-01-24","kp":"2"},{"predicted_time":"2025-01-25","kp":"2"}] [{"predicted_time":"2024-12-30","kp":"3"},{"predicted_time":"2024-12-31","kp":"7"},{"predicted_time":"2025-01-01","kp":"5"},{"predicted_time":"2025-01-02","kp":"3"},{"predicted_time":"2025-01-03","kp":"2"},{"predicted_time":"2025-01-04","kp":"2"},{"predicted_time":"2025-01-05","kp":"3"},{"predicted_time":"2025-01-06","kp":"3"},{"predicted_time":"2025-01-07","kp":"2"},{"predicted_time":"2025-01-08","kp":"2"},{"predicted_time":"2025-01-09","kp":"2"},{"predicted_time":"2025-01-10","kp":"4"},{"predicted_time":"2025-01-11","kp":"3"},{"predicted_time":"2025-01-12","kp":"3"},{"predicted_time":"2025-01-13","kp":"2"},{"predicted_time":"2025-01-14","kp":"2"},{"predicted_time":"2025-01-15","kp":"2"},{"predicted_time":"2025-01-16","kp":"4"},{"predicted_time":"2025-01-17","kp":"3"},{"predicted_time":"2025-01-18","kp":"3"},{"predicted_time":"2025-01-19","kp":"3"},{"predicted_time":"2025-01-20","kp":"3"},{"predicted_time":"2025-01-21","kp":"2"},{"predicted_time":"2025-01-22","kp":"</p>
+                <p><a href="https://www.gi.alaska.edu/monitors/aurora-forecast" target="_blank" class="article-link">原文链接</a></p>
+                <hr>
+                
+                <h2 class="article-title">Storm Aurora Forecast: How To See Northern Lights in US on New Year's Eve - Newsweek</h2>
+                <p class="article-content">2024年即将结束，美国部分地区的天空可能会出现壮观的自然烟火——北极光，这要归功于太阳活动的增强。周末太阳表面发生了多次爆发，其中两次将物质抛向地球。当这种被称为日冕物质抛射（CME）的物质在除夕夜抵达地球时，它将与地球大气层相互作用，形成极光。AccuWeather气象学家布兰登·巴金汉告诉《新闻周刊》：“最近几天发生了多次M级和X级太阳耀斑，预计它们将在未来48到72小时内（周一晚上到周三晚上）至少对地球磁层造成擦肩而过。由于多次太阳耀斑以及它们朝地球移动的速度存在不确定性，CME可能造成影响的预测时间范围相当广泛，尽管预计事件的发生时间将很快。” 地磁风暴的确切时间很难预测。极光通常在夜间最黑暗的时候，也就是午夜和凌晨时分，最容易被观测到。美国国家海洋和大气管理局（NOAA）空间天气预报中心表示：“在CME（s）到达距地球100万英里（距离地球约30-60分钟）之前，我们无法真正了解地磁扰动水平的潜在影响，届时我们的太阳风观测站可以测量其结构和强度。” NOAA预测，与今年早些时候的观测相比，除夕夜可能在美国较小的地区看到北极光，但加拿大边境州的居民可能会看到它。空间天气预报中心分享的预测地图显示，从12月30日到新年第一天，十几个北部州的部分地区被突出显示，这些地区“极光视野”的可能性很低到中等。虽然不确定在除夕夜的美国本土48个州中，任何地方都能看到北极光，但它们可能会出现在以下州的部分地区：华盛顿州、爱达荷州、蒙大拿州、怀俄明州、北达科他州、南达科他州、威斯康星州、明尼苏达州、爱荷华州、伊利诺伊州、密歇根州、纽约州、佛蒙特州、新罕布什尔州和缅因州。为了增加今晚看到北极光的可能性，请前往远离城市灯光、黑暗的地方，并朝北方看。让你的眼睛完全适应黑暗大约20分钟。巴金汉说：“一个有助于看到极光的因素是，我们目前处于新月阶段，这使得夜空非常黑暗。不幸的是，在接下来的几天里，美国北部地区的晴朗天空将很难得，这可能使大范围观赏变得非常困难。”巴金汉指出，北部平原（达科他州、蒙大拿州东部）是周二晚上最有可能看到极光的地方。地磁风暴是地球磁层中的扰动，是由太阳风和从太阳喷射出的带电粒子引起的，例如太阳耀斑或日冕物质抛射期间。这些风暴会干扰卫星通信、电网和导航系统，同时也会产生壮观的极光。太阳耀斑发生在太阳强烈的磁场扭曲和重新连接时，释放出大量的能量。这些耀斑通常与太阳上的活跃区域有关，这些区域通常表现为太阳黑子——磁场最集中和最活跃的区域。耀斑根据其强度进行分类，从最小的B级开始，依次递增到C级、M级和最强烈的X级。就像地震的里氏震级一样，这种分类系统是对数的，每一步都代表能量增加十倍。因此，X级耀斑比M级耀斑强10倍，比C级耀斑强100倍。“在12月28日至29日的周末，发生了大量的活动，”NOAA的地磁风暴预警在周一表示。这场“连绵不绝”的耀斑发出了一些CME，预计其中两个将在除夕夜和新年当天到达地球。CME可以与地球磁场相互作用，产生地磁风暴。如果这些风暴足够强烈，就会产生壮观的极光，在较低的纬度地区也能看到。极光发生在带电的太阳粒子与地球磁场相互作用时，沿着磁力线向两极移动。当这些粒子进入大气层时，它们会与氧气和氮气等气体发生碰撞，释放出能量，形成各种颜色的光。极光中常见的主要绿色色调是氧气产生的，而氮气则会产生紫色、蓝色和粉色。罕见的猩红色极光发生在特别强烈的事件中。相机比我们的眼睛更擅长捕捉极光，所以即使你自己看不到北极光，你也许可以拍到一张壮观的除夕夜的照片。如果你的相机有“</p>
+                <p><a href="https://www.newsweek.com/aurora-borealis-northern-lights-geomagnetic-storm-nye-watch-2007723" target="_blank" class="article-link">原文链接</a></p>
+                <hr>
+                
+                </div>
+                <div class="footer">
+                    <span>Copyright ©<span id="year"></span> <a href="/">今日谷歌热搜</a></span> |
+                    <span><a href="https://linux.do/u/f-droid" target="_blank" rel="nofollow">Powered by F-droid</a></span>
+                </div>
+                <script>
+                    document.getElementById("year").textContent = new Date().getFullYear();
+                </script>
+            </body>
+            </html>
+            
